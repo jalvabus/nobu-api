@@ -96,7 +96,7 @@ app.get('/regAdmin', (req, res) => {
     var usuario = new Vulcano({
         clave: "123",
         numero_empleado: "123",
-        usuario: "admin",
+        usuario: "jefe-estacion",
         nombre: "eduardo",
         apellido_paterno: "valencia",
         apellido_materno: "zavala",
@@ -127,7 +127,7 @@ app.get('/regAdminModulo', (req, res) => {
     var usuario = new Vulcano({
         clave: "123",
         numero_empleado: "123",
-        usuario: "adminModulo",
+        usuario: "jefe-servicio",
         nombre: "alejandro",
         apellido_paterno: "palizada",
         apellido_materno: "sanchez",
