@@ -96,7 +96,7 @@ app.get('/regAdmin', (req, res) => {
     var usuario = new Vulcano({
         clave: "123",
         numero_empleado: "123",
-        usuario: "jefe-estacion",
+        usuario: "jefe.estacion",
         nombre: "eduardo",
         apellido_paterno: "valencia",
         apellido_materno: "zavala",
@@ -104,7 +104,7 @@ app.get('/regAdmin', (req, res) => {
         estacion: "5c51e65eee3c6c274c1df171",
         guardia: "5c4b62702422022980ebc237",
         grado: "5c4b570a6e383304e8aae662",
-        rol: "administrador"
+        rol: "jefe-estacion"
     });
 
     bcrypt.genSaltAsync(10)
@@ -127,7 +127,7 @@ app.get('/regAdminModulo', (req, res) => {
     var usuario = new Vulcano({
         clave: "123",
         numero_empleado: "123",
-        usuario: "jefe-servicio",
+        usuario: "jefe.servicio",
         nombre: "alejandro",
         apellido_paterno: "palizada",
         apellido_materno: "sanchez",
@@ -135,7 +135,7 @@ app.get('/regAdminModulo', (req, res) => {
         estacion: "5c51e65eee3c6c274c1df171",
         guardia: "5c4b62702422022980ebc237",
         grado: "5c4b570a6e383304e8aae662",
-        rol: "administradorModulo"
+        rol: "jefe-servicio"
     });
 
     bcrypt.genSaltAsync(10)
